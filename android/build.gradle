@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 android {
     namespace 'io.eddayy.flutter_star_prnt'
 
-    compileSdkVersion 28
+     compileSdkVersion 33
 compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -40,7 +40,8 @@ compileOptions {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 26
+        targetSdkVersion 34
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
